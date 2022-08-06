@@ -12,11 +12,13 @@
   <title>Blog Kenzie</title>
 </head>
 <body>
-  <header>
+  <header class="header">
     <div class="container-full">
-      <img src="./src/img/logo.webp" alt="Kenzie logo">
-      <nav>
-        <ul>
+      <div class="header__logo">
+        <img src="./src/img/logo.webp" alt="Kenzie logo">
+      </div>
+      <nav class="header__menu">
+        <ul class="menu__list">
           <li><a href="#" target="_blank">Quem somos</a></li>
           <li><a href="#" target="_blank">Formação</a></li>
           <li><a href="#" target="_blank">Pagamento</a></li>
@@ -26,14 +28,14 @@
       </nav>
     </div>
   </header>
-  <main>
-    <section>
+  <main class="main">
+    <section class="container-medium main__contrast">
       <h1>ÁREA DESTINADA AO TÍTULO DA PUBLICAÇÃO, LOREM IPSUM DOLOR SIT AMET CONSECTETUR</h1>
       <p>Área destinada ao lead da matéria. Lorem ispum dolor sit amet consectetur adispiscing elit, sed do eiusmod tempor incididunt.</p>
       <img src="./src/img/zombie-gamer-in-video-game-club-TQ3D79L 1.png" alt="Game clube">
     </section>
-    <article>
-      <section>
+    <article class="post container-small">
+      <section class="post__section">
         <h2>Qui dolorem ipsum </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -48,7 +50,7 @@
           Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. <a href="#">Neque porro quisquam est.</a> 
         </p>
       </section>
-      <section>
+      <section class="post__section">
         <h2>Qui dolorem ipsum </h2>
         <p>
           Quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
@@ -64,29 +66,30 @@
         </p>
       </section>
     </article>
-    <section>
-      <div>
+    <section class="news container-medium">
+      <div class="news__post">
         <img src="./src/img/blog01.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do">
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do</h3>
         <span>7 min - leitura</span>
       </div>
-      <div>
+      <div class="news__post">
         <img src="./src/img/blog02.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do">
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do</h3>
         <span>7 min - leitura</span>
       </div>
-      <div>
+      <div class="news__post">
         <img src="./src/img/blog03.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do">
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do</h3>
         <span>7 min - leitura</span>
       </div>
     </section>
+    <div class="low-bottom"></div>
   </main>
-  <footer>
-    <div>
+  <footer class="footer container-medium">
+    <div class="footer__logo">
       <img src="./src/img/footer-logo.svg" alt="Footer Kenzie logo">
     </div>
-    <div>
+    <div class="footer__social-networks">
       <h4>KENZIE NA REDE</h4>
       <a href="#">Facebook</a>
       <a href="#">Instagram</a>

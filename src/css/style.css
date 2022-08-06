@@ -1,0 +1,49 @@
+.container-full{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-medium{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.container-small{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.header__logo{}
+.header__logo img{}
+
+.header__menu{}
+.menu__list{}
+.menu__list li{}
+.menu__list li a{}
+
+.main{}
+.main__contrast{}
+.main__contrast h1{}
+.main__contrast p{}
+.main__contrast img{}
+
+.post{}
+.post__section {}
+.post__section h2{}
+.post__section p{}
+.post__section p strong{}
+.post__section p a{}
+
+.news{}
+.news__post{}
+.news__post img{}
+.news__post h3{}
+.news__post span{}
+
+.low-bottom{}
+
+.footer{}
+.footer__logo{}
+.footer__logo img{}
+.footer__social-networks{}
+.footer__social-networks h4{}
+.footer__social-networks a{}
+
